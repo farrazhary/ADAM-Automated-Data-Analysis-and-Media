@@ -68,7 +68,9 @@ ADAM/
 ├── docs/
 │   ├── README.md                  # feature, tech stack, roadmap documentation
 │   └── images/                    # ADAM demo screenshots
-│       └── adam-demo.png
+│       ├── image1.jpg
+│       ├── image2.jpg
+│       └── image3.jpg
 │
 ├── LICENSE                        
 └── README.md                      # Project overview

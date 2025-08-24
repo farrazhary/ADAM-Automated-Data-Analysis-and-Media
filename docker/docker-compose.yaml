@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  n8n:
+    build: .
+    container_name: n8n
+    ports:
+      - "5678:5678"
+    user: root
+    environment:
+      - WEBHOOK_URL=https://<your ngrok static domain>
+      - N8N_TIMEZONE=Asia/Jakarta
+      - GENERIC_TIMEZONE=Asia/Jakarta
+    volumes:
+      - /mnt/c/Users/<Your User>/N8N/data:/home/node/.n8n
+    restart: unless-stopped

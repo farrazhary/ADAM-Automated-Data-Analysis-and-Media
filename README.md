@@ -83,11 +83,10 @@ This structure ensures that users can easily:
 ---
 
 ## 📈 Roadmap
-
-- **Predictive Insights**: Forecast future trends and business performance.  
+ 
 - **Data Visualization**: Deliver insights in interactive charts & dashboards. 
 - **Multi-channel Support**: Extend integrations beyond WhatsApp to Telegram, Slack, and more.
-
+- **Integration Hub**: Connections to CRM, e-commerce (Shopify, Tokopedia), and Ads platforms.
 ---
 
 ## 🔗 Author
